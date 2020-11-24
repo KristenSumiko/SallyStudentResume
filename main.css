@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color: rgb(217, 248, 217);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Contact-section, #myImage, h1, .sectionHeading {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .sectionHeading {
+        text-align: left;
+    }
+}
